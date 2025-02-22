@@ -1,0 +1,2 @@
+# Core dependencies
+dudraw>=1.0.0  # Graphics library for visualization 
