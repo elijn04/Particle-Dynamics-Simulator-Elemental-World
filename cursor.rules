@@ -1,0 +1,17 @@
+Project Rules for Cursor AI – Interactive World Simulation
+Keep element behaviors modular – Each element gets its own file inside elements/.
+particle_system.py acts as a manager – It should only call element update functions, not handle logic directly.
+Follow structured naming conventions – Use update_<element>() for behaviors.
+Keep UI and rendering separate – No physics logic should be in render.py or ui.py.
+Optimize performance – Update only active elements, avoid redundant processing.
+Ensure easy scalability – New elements should integrate without modifying core files.
+Debug systematically – Identify all possible causes before making changes.
+
+Code Style and Organization
+- Program has a docstring header with usual contents
+- Each function has a docstring describing its purpose, parameter(s) and return value:
+- Program uses functions that divide the task into logical components. Functions names match the task they perform.
+- Functions are of a reasonable length
+- Program contains useful In-line comments.
+- Variables and functions have descriptive and helpful names.
+- Program is named according to usual class conventions
